@@ -1,0 +1,69 @@
+.posting {
+	/* Set background color */
+	background-color: #A9A9A9;
+	
+	/* Rounds out the corners. */
+	border-radius: 25px;
+	
+	/* Add a solid line. */
+	border: 3px solid gold;
+	
+	/* Set the height and width to be X% of
+		the window (viewport) size */
+	height: 30vh;
+	width: 95%;
+	
+	/* Set the display flex. */
+	display: flex;
+	flex-direction: row;
+	
+	overflow: hidden;
+}
+
+.div1{
+	background-color: turquoise;
+	height: 100%;
+	width: 33.3%;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+img{
+	max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+}
+
+.div2{
+	/* Set background color */
+	background-color: white;
+	font-family: Comic Sans MS;
+	text-align: center;
+	height: 100%;
+	width: 33.3%;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+.div3{
+	/* Set background color */
+	background-color: turquoise;
+	font-family: Comic Sans MS;
+	height: 100%;
+	width: 33.3%;
+	border: 1px solid black;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.div3 a{
+		color: black;
+}
+
+.div3 a:visited{
+		color: white;
+}
+
+.div3 a:hover{
+		color: gold;
+}
